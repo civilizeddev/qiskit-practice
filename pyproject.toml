@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "qiskit-practice"
+version = "0.1.0"
+description = "IBM Qiskit Practice"
+authors = ["Hyeonsoo David Lee <hyeonsoo.david.lee@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.9"
+qiskit = "~0.29"
+matplotlib = "3.4.3"
+pylatexenc = "^2.10"
+seaborn = "^0.13.0"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+ipywidgets = "^8.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
