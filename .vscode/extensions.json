@@ -3,5 +3,6 @@
     "donjayamanne.python-extension-pack",
     "ms-python.black-formatter",
     "zeshuaro.vscode-python-poetry",
+    "akashgutha.qiksit-snippets"
   ]
 }
